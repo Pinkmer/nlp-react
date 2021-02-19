@@ -1,0 +1,29 @@
+::-webkit-scrollbar {
+  width: 5px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 5px #f8f8f8;
+  background: rgb(64,169,255);
+}
+
+::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 5px #f8f8f8;
+  border-radius: 10px;
+  background: #eeecec;
+}
+.ant-layout {
+  overflow: hidden;
+}
+.site-layout-background {
+  background-color: #ffffff !important;
+  height: calc(100vh - 165px);
+  .ant-layout-content {
+    overflow-y: scroll;
+  }
+}

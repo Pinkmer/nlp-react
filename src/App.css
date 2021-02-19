@@ -1,0 +1,19 @@
+
+@import '~antd/dist/antd.css';
+@import '../src/style/reset.less';
+
+.entryWrap{
+  position: absolute;
+  top:0;
+  bottom:0;
+  min-width: 900px;
+  width: 100vw;
+  height: auto;
+}
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 0.8s  ease-in-out;
+}

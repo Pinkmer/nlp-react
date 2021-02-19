@@ -1,0 +1,31 @@
+const menuList = [
+    {
+        title:'首页',
+        key:'/home'
+    },
+    {
+        title:'意图管理',
+        key:'/intention'
+    },
+    {
+        title:'技能管理',
+        key:'/skill'
+    },
+    {
+        title:'机器人',
+        key:'/application'
+    },
+    {
+        title:'内容源管理',
+        key:'/content'
+    },
+    {
+        title:'用户词典',
+        key:'/userdict'
+    },
+    {
+        title:'系统词典',
+        key:'/systemdict'
+    },
+];
+export default menuList;
